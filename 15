@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro base, expoente, base_inicial
+		escreva("Me dê a base e o expoente de uma operação.\n")
+		leia(base, expoente)
+		base_inicial = base
+		para(inteiro i = 1; i < expoente; i ++){
+			base = base * base_inicial
+		}
+		escreva(base)
+	}
+}
