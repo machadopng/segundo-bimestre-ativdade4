@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro n1, n2, n3, n4, n5, maior
+		escreva("Me dê 5 números\n")
+		leia(n1, n2, n3, n4, n5)
+		se(n1> n2 e n1> n3 e n1> n4 e n1> n5){
+			maior = n1
+		}senao se(n2> n3 e n2> n4 e n2> n5){
+			maior = n2
+		}senao se(n3> n4 e n3> n5){
+			maior = n3
+		}senao se(n4> n5){
+			maior = n4
+		}senao{
+			maior = n5
+		}
+		escreva(maior, " é o maior número.")
+	}
+}
