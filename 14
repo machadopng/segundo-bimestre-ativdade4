@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro numero_dado, numero_usado, tabuada = 0
+		escreva("Me dê um número.\n")
+		leia(numero_dado)
+		numero_usado = numero_dado
+		escreva("tabuada do: ", numero_dado, "\n")
+		enquanto(numero_dado <= numero_usado * 10){
+			escreva(numero_usado, "  x ", tabuada++, " = ", numero_dado, "\n")
+			numero_dado = numero_dado + numero_usado
+			
+			
+		}
+	}
+}
