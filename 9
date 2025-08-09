@@ -1,0 +1,57 @@
+programa
+{
+	inclua biblioteca Texto
+	
+	funcao inicio()
+	{
+	     cadeia nome
+	     inteiro idade, letras
+	     real salario
+	     
+		faca
+		{
+		
+		escreva("Olá, qual é seu nome? \n")
+		leia(nome)
+		
+		letras = Texto.numero_caracteres(nome)
+		
+		se(letras < 3)
+		{
+			escreva("Nome inválido (Menor que 3 caractéres)\n")
+		}
+		
+		}
+		enquanto(letras < 3)
+
+          faca
+		{
+		
+		escreva("Certo, qual é sua idade? \n")
+		leia(idade)
+		
+		se(idade <= 0 ou idade >= 150)
+		{
+			escreva("Idade inválida.\n")
+		}
+		
+		}
+		enquanto(idade <= 0 ou idade >= 150)
+
+		faca
+		{
+		
+		escreva("Certo, qual é seu salário? \n")
+		leia(salario)
+		
+		se(salario <= 0)
+		{
+			escreva("Salário inválido.\n")
+		}
+		
+		}
+		enquanto(salario <= 0)
+
+		
+	}
+}
