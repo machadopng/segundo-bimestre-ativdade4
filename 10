@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real     hab_A = 80000.0
+		real     hab_B = 200000.0
+		real     tax_A = 0.03
+		real     tax_B = 0.015
+		inteiro  anos = 0
+
+		enquanto(hab_A < hab_B)
+		{
+			hab_A = hab_A + (hab_A * tax_A)
+			hab_B = hab_B + (hab_B * tax_B)
+			anos++
+		}
+          escreva("Sera necessário ", anos, " anos para que a população de A passe a de B.")
+		
+	}
+}
