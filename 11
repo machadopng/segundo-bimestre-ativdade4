@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real     hab_A
+		real     hab_B
+		real     taxaa_pre
+		real     taxab_pre
+		inteiro  anos = 0
+          
+		escreva("Me dê as duas populações das cidades\n")
+		leia(hab_A, hab_B)
+		escreva("Certo, agora, respectivamente, me fale as taxas de crescimento de A e de B.\n")
+		leia(taxaa_pre, taxab_pre)
+		
+		real     tax_A = taxaa_pre / 100
+		real     tax_B = taxab_pre / 100
+		
+		enquanto(hab_A < hab_B)
+		{
+			hab_A = hab_A + (hab_A * tax_A)
+			hab_B = hab_B + (hab_B * tax_B)
+			anos++
+		}
+          escreva("Sera necessário ", anos, " anos para que a população de A passe a de B.")
+		
+	}
+}
