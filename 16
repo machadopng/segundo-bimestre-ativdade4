@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro numero, pares = 0, impares = 0
+	     para(inteiro i = 0; i < 10; i++){
+		escreva("Me informe um número.\n")
+		leia(numero)
+		se(numero % 2 == 0){
+			pares++
+		}senao{
+			impares++
+		}
+	     }
+	     escreva("Há: ", pares, " pares, e: ", impares, " impares.")
+	}
+}
