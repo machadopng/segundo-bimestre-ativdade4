@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a = 0
+		inteiro b = 1
+		inteiro c 
+		escreva(a, ", ", b)
+		enquanto(a + b <= 500){
+			c = a + b
+			escreva(", ", c)
+			a = b
+			b = c
+		}
+		
+	}
+}
