@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro menor, maior, soma, n, i, num
+		escreva("Me dê o tamanho do conjunto.\n")
+		leia(n)
+          escreva("Me dê o 1º número\n")
+          leia(num)
+          menor = num
+          soma = num
+          maior = num
+          para(i =2; i<=n; i++){
+          	escreva("Me dê o ", i,"º número.\n")
+          	leia(num)
+
+          	se(num < menor){
+          		menor = num
+          	}se (num > maior){
+          		maior = num
+          	}
+          	soma = soma + num
+          }
+		    escreva("O maior número é: ", maior, " o menor é: ", menor, " e a soma de todos é: ", soma)	
+		//eu tô a dias nessa 
+	}
+}
