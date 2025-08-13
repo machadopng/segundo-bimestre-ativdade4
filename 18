@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro num, fatorial = 0, i
+		escreva("Me dê um número.\n")
+		leia(num)
+		fatorial = num
+		escreva(num, "! = ")
+		para(i = num; i > 0; i--){
+		     
+			escreva(i, ".")
+		     se(fatorial != i){
+		     	 fatorial = fatorial * i
+		     }
+		    
+			}
+			
+		
+		escreva("= ", fatorial)
+	}
+    
+}
