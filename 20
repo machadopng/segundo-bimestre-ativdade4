@@ -9,7 +9,7 @@ programa
           
           escreva("Me dê o 1º número\n")
           leia(num)
-          enquanto(num < 0 ou num > 100){
+          enquanto(num < 0 ou num > 1000){
                escreva("Número inválido, me dê outro.\n")
                leia(num)
           
@@ -23,7 +23,7 @@ programa
           	leia(num)
 
           
-           enquanto(num < 0 ou num > 100){
+           enquanto(num < 0 ou num > 1000){
                escreva("Número inválido, me dê outro.\n")
                leia(num)
           
