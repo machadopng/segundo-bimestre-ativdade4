@@ -37,6 +37,6 @@ programa
           	soma = soma + num
           }
 		    escreva("O maior número é: ", maior, " o menor é: ", menor, " e a soma de todos é: ", soma)	
-		//eu tô a dias nessa 
+		 
 	}
 }
